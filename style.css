@@ -1,0 +1,66 @@
+body {
+	background-color: #000;
+}
+
+h1 {
+	font-family:'Arial', sans-serif;
+	font-size: 72px;
+	color: #fff;
+	text-align:center;
+}
+
+h3 {
+	font-family:'Arial', sans-serif;
+	font-size: 28px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	color: #fff;
+	text-align:center;
+}
+
+.mycenter {
+    position: relative;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+button {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 6px;
+	font-family: 'Arial', sans-serif;
+	font-size: 28px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #000;
+	border: 3px solid #fff;
+	height: 60px;
+	width: 200px;
+}
+
+button:hover{
+	opacity: .75;
+}
+
+a{
+	color: #000;
+}
+
+#excuses{
+	position: relative;
+	top: 30px;
+	font-family: 'Arial', monospace;
+	font-size: 68px;
+	color: #fff;
+	text-align:center;
+}
+
+#license{
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	font-family: monospace;
+	font-size: 12px;
+	text-align:center;
+}
